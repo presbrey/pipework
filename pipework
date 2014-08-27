@@ -40,6 +40,7 @@ fi
     echo "pipework --wait"
     exit 1
 }
+sleep 1
 
 # First step: determine type of first argument (bridge, physical interface...)
 if [ -d /sys/class/net/$IFNAME ]
